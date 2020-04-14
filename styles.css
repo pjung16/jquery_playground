@@ -1,0 +1,33 @@
+.text-blue {
+  color: blue;
+  cursor: pointer;
+}
+
+.block {
+  margin: 50px;
+}
+
+.square {
+  transition: all 1s;
+  margin-right: 50px;;
+}
+
+.circle {
+  transition: all 1s;
+}
+
+.transform {
+  transform: scale(1.5) rotate(45deg);
+}
+
+button {
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: lightblue;
+}
+
+.current-color {
+  margin-top: 25px;
+}

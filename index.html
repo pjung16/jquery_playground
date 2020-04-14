@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--content goes here-->
+  <h1>jQuery Playground</h1>
+  <div class="block">
+    <h2 class="text-blue win-money-text">Click here to win $100!</h2>
+  </div>
+
+  <div class="block">
+    <svg class="circle" height="100" width="100">
+      <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <svg class="circle" height="100" width="100">
+      <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="green" />
+    </svg>
+    <svg class="circle" height="100" width="100">
+      <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="purple" />
+    </svg>
+  </div>
+
+  <div class="block">
+    <svg class="square" height="100" width="100">
+      <rect width="100" height="100" style="fill:rgb(0, 255, 34);stroke-width:3;stroke:rgb(0,0,0)" />
+    </svg>
+    <svg class="square" height="100" width="100">
+      <rect width="100" height="100" style="fill:rgb(255,2,255);stroke-width:3;stroke:rgb(0,0,0)" />
+    </svg>
+    <svg class="square" height="100" width="100">
+      <rect width="100" height="100" style="fill:rgb(0, 247, 255);stroke-width:3;stroke:rgb(0,0,0)" />
+    </svg>
+  </div>
+
+  <div class="block">
+    <div>Click on the star</div>
+    <svg class="star" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+    </svg>
+  </div>
+
+  <div class="block">
+    <button type="button" class="get-color-button">What is the current color of the star?</button>
+    <div class="current-color"></div>
+  </div>
+
+  <!-- If using jQuery, it must be added BEFORE your own script -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="scripts.js"></script>
+  <script>
+    (function() {
+      app.initialize();
+    })();
+
+  </script>
+</body>
+</html>
